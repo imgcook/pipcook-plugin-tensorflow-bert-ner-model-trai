@@ -1,6 +1,6 @@
 {
   "name": "@pipcook/plugins-tensorflow-bert-ner-model-train",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "bert ner model train plugin based tf2",
   "main": "__init__.py",
   "scripts": {
