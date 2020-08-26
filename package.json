@@ -1,20 +1,14 @@
 {
   "name": "@pipcook/plugins-tensorflow-bert-ner-model-train",
-  "version": "1.0.4",
-  "description": "",
-  "main": "dist/index",
-  "types": "dist/index",
+  "version": "1.1.0",
+  "description": "bert ner model train plugin based tf2",
+  "main": "__init__.py",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
-    "compile": "tsc -b tsconfig.json"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Feely <feely@outlook.com>",
+  "author": "queyue.crk<ruikuncao@gmail.com>",
   "license": "Apache 2.0",
   "dependencies": {
-    "@pipcook/boa": "^1.0.4",
-    "@pipcook/pipcook-core": "^1.0.4"
   },
   "gitHead": "1e21ad0799e221dcf4b7aa3a3b2187d5b8d8b865",
   "devDependencies": {
@@ -26,7 +20,8 @@
   },
   "pipcook": {
     "category": "modelTrain",
-    "datatype": "text"
+    "datatype": "text",
+    "runtime": "python"
   },
   "conda": {
     "python": "3.7",
